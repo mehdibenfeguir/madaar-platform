@@ -9,6 +9,8 @@ export const BRAND = {
   tagline: 'Smart Schools Operating System',
   taglineAr: 'المنصّة الذكية لإدارة أصول المدارس',
   vision: 'Aligned with Saudi Vision 2030',
+  preparedBy: 'Aisha Ben Feguir',
+  preparedByAr: 'عائشة بن فقير',
 }
 
 export type KPI = {

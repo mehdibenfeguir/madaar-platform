@@ -52,6 +52,9 @@ export default function Overview() {
               revenue-generating, data-driven asset — mapping space, monetizing
               idle hours, and opening the door to private investment.
             </p>
+            <p className="mt-3 text-xs font-medium text-white/70">
+              Prepared by {BRAND.preparedBy} · {BRAND.preparedByAr}
+            </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link to="/space/simulation">
                 <Button variant="teal">

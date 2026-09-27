@@ -122,12 +122,14 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       </nav>
 
       <div className="mx-3 mb-4 rounded-2xl bg-gradient-to-br from-brand-600/80 to-teal-600/70 p-4 text-white">
-        <div className="flex items-center gap-2 text-sm font-semibold">
-          <Sparkles size={16} /> Vision 2030 Ready
+        <div className="text-xs font-bold uppercase tracking-wide text-white/70">
+          Prepared by
         </div>
-        <p className="mt-1 text-xs text-white/80">
-          Privatization-grade data rooms & PPP tooling built in.
-        </p>
+        <div className="mt-1 text-sm font-bold">{BRAND.preparedBy}</div>
+        <div className="text-xs text-white/75">{BRAND.preparedByAr}</div>
+        <div className="mt-3 flex items-center gap-2 text-xs font-semibold text-white/90">
+          <Sparkles size={14} /> Vision 2030 Ready
+        </div>
       </div>
     </div>
   )
@@ -204,13 +206,13 @@ export default function Layout() {
 
           <div className="flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 py-1 pl-1 pr-3">
             <div className="grid size-7 place-items-center rounded-full bg-gradient-to-br from-brand-500 to-teal-500 text-xs font-bold text-white">
-              MB
+              AB
             </div>
             <div className="hidden text-left sm:block">
               <div className="text-xs font-semibold leading-none text-slate-700">
-                M. Al-Rashid
+                A. Ben Feguir
               </div>
-              <div className="text-[10px] text-slate-400">Region Admin</div>
+              <div className="text-[10px] text-slate-400">Prepared by</div>
             </div>
           </div>
         </header>

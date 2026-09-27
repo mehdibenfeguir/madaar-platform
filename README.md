@@ -2,6 +2,8 @@
 
 Smart Schools Operating System — a frontend-only demo of the MADAAR platform (static/mock data).
 
+Prepared by **Aisha Ben Feguir**.
+
 **Live:** [https://mehdibenfeguir.github.io/madaar-platform/](https://mehdibenfeguir.github.io/madaar-platform/)
 
 ## Local
